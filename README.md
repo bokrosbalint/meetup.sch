@@ -2,13 +2,13 @@
 
 #### deploy
 
-a következő packagekre lesz szükséged: node npm
+a következő packagekre lesz szükséged: node yarn (vagy npm)
 
 a szerver elindítása előtt telepítened kell a szükséges modulokat:
 
 `cd meetup`
 
-`npm install express serve-favicon morgan cookie-parser body-parser sqlite3 ejs`
+`yarn install` (ha nincs, akkor `npm install`)
 
 `node app.js`
 
