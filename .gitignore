@@ -4,3 +4,4 @@
 .idea/
 users.yml
 meetup/node_modules/
+.DS_Store
