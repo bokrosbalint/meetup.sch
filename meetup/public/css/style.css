@@ -62,7 +62,7 @@ p {
     margin-bottom: 20px;
 }
 .bg-primary {
-    background-color: #4f5f80;
+    background-color: #202020;                                             /*Egyes szekciók háttérszíne */
 }
 .sm-helper {
     background-color: #26263F;
@@ -71,7 +71,7 @@ p {
     visibility: hidden;
 }
 .bg-dark {
-    background-color: #4f5f80;
+    background-color: #101010;                                              /*Sötétebb szekciók háttérszíne*/
     color: #ececec;
 }
 .text-faded {
@@ -107,7 +107,7 @@ aside {
 .navbar-default .navbar-header .navbar-toggle {
     font-weight: 700;
     font-size: 12px;
-    color: #222222;
+    color: #222222;                                     /* Navbar linkek alap színe*/
     text-transform: uppercase;
 }
 .navbar-default .nav > li > a,
@@ -115,15 +115,15 @@ aside {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 13px;
-    color: #222222;
+    color: #222222;                                     /* Navbar linkek alap színe*/
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-    color: #4F5F80 !important;
+    color: #008cca !important;                             /* Navbar linkek hover színe*/
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-    color: #4F5F80 !important;
+    color: #008cca !important;                             /* Navbar linkek hover színe*/
     background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -157,7 +157,7 @@ aside {
         color: white;
     }
     .navbar-default.affix {
-        background-color: #26263E;
+        background-color: #202020;                                 /*Navbar színe görgetés után*/
         border-color: rgba(34, 34, 34, 0.05);
     }
     .navbar-default.affix .navbar-header .navbar-brand {
@@ -188,7 +188,7 @@ header {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url('../images/meetup-bg.jpg');
+    background-image: url('../images/meetup-bg-2.jpg');
     text-align: center;
     color: white;
 }
@@ -342,7 +342,7 @@ h2 {
 }
 
 .section-heading {
-    background: #26263F;
+    background: #074c73;                        /*Címek háttérszíne*/
     margin-top: 0;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -560,7 +560,7 @@ fieldset[disabled] .btn-primary.active {
     background: #222222;
 }
 footer {
-    background-color: #4e5f80;
+    background-color: #074c73;
     color: #fff;
     font-size: 16px;
     height: 70px;
@@ -810,12 +810,12 @@ input[type="submit"]:hover {
 }
 
 .submit-button {
-    background-color: #26263F;
+    background-color: #074c73;                      /*Gomb színe*/
     cursor: pointer;
     color: white;
     width: 300px;
 }
 
 .submit-button:hover {
-    background-color: #4E5F80;
+    background-color: #008cca;                      /*Gomb hover színe*/
 }
