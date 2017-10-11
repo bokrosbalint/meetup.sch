@@ -30,10 +30,6 @@ $(document).ready(function() {
 			}
 		}
 	});
-
-	if(!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-		var s = skrollr.init();
-	}
 	
 	$('.animation-section').height($(window).height() - 185).addClass("on");
 	$('header').addClass('on');
