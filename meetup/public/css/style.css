@@ -820,3 +820,7 @@ input[type="submit"]:hover {
 .submit-button:hover {
     background-color: #008cca;                      /*Gomb hover színe*/
 }
+
+.titleTag {
+	text-align:center;
+}
