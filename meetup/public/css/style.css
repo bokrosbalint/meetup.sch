@@ -60,7 +60,6 @@ p {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 20px;
-    text-align: justify;
 }
 .bg-primary {
     background-color: #202020;                                             /*Egyes szekciók háttérszíne */
@@ -120,11 +119,11 @@ aside {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-    color: #008cca !important;                             /* Navbar linkek hover színe*/
+    color: #01c2cb !important;                             /* Navbar linkek hover színe*/
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-    color: #008cca !important;                             /* Navbar linkek hover színe*/
+    color: #01c2cb !important;                             /* Navbar linkek hover színe*/
     background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -158,7 +157,7 @@ aside {
         color: white;
     }
     .navbar-default.affix {
-        background-color: #202020;                                 /*Navbar színe görgetés után*/
+        background-color: #0c1c21;                                 /*Navbar színe görgetés után*/
         border-color: rgba(34, 34, 34, 0.05);
     }
     .navbar-default.affix .navbar-header .navbar-brand {
@@ -189,7 +188,7 @@ header {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url('../images/meetup-bg-2.jpg');
+    background-image: url('../images/meetup-bg-3.png');
     text-align: center;
     color: white;
 }
@@ -315,11 +314,11 @@ h2 {
     margin-bottom: 0;
 }
 
-.bulb {
+.icon {
     width: 70%;
 }
 
-.bulb-left {
+.icon-left {
     position: relative;
     float: left;
     top: -20px;
@@ -328,7 +327,7 @@ h2 {
     transform: rotate(-15deg);
 }
 
-.bulb-right {
+.icon-right {
     position: relative;
     top: -20px;
     float: right;
@@ -337,16 +336,16 @@ h2 {
     transform: rotate(15deg);
 }
 
-.bulb img {
+.icon img {
     height: 67px;
     width: 50px;
 }
 
 .section-heading {
-    background: #074c73;                        /*Címek háttérszíne*/
+    background: #007e85;                        /*Címek háttérszíne*/
     margin-top: 0;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
     font-family: 'Poiret One';
     font-weight: bold;
     color: white;
@@ -561,7 +560,7 @@ fieldset[disabled] .btn-primary.active {
     background: #222222;
 }
 footer {
-    background-color: #074c73;
+    background-color: #007e85;
     color: #fff;
     font-size: 16px;
     height: 70px;
@@ -811,16 +810,34 @@ input[type="submit"]:hover {
 }
 
 .submit-button {
-    background-color: #074c73;                      /*Gomb színe*/
+    background-color: #007e85;                      /*Gomb színe*/
     cursor: pointer;
     color: white;
     width: 300px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
 }
 
 .submit-button:hover {
-    background-color: #008cca;                      /*Gomb hover színe*/
+    background-color: #01adb6;                      /*Gomb hover színe*/
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
 }
 
-.titleTag {
-	text-align:center;
+/*Scrollbar*/
+body::-webkit-scrollbar {
+    width: 4px;
 }
+ 
+body::-webkit-scrollbar-track {
+    visibility:visible;
+    background-color: #202020;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #2cfafb;
+  border-radius:10px;
+}
+/*Scrollbar end*/
