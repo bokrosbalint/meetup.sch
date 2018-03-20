@@ -19,6 +19,7 @@ html,
 body {
     height: 100%;
     width: 100%;
+	background-color: #ecf0f1;
 }
 body {
     font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
@@ -584,7 +585,7 @@ body {
     margin: 0 auto 60px;
 }
 .multiple-contact-item h4 {
-    font-size: 35px;
+    font-size: 30px;
     padding-top: 25px;
 }
 
