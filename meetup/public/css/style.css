@@ -356,7 +356,7 @@ h2 {
 .section-headingLow {
     margin-top: 0;
     padding-top: 30px;
-    padding-bottom: 80px;
+    padding-bottom: 0;
     font-family: 'Poiret One';
     font-weight: bold;
     margin-top: 30px;
